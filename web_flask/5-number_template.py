@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Flask web application module"""
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 
 web_app = Flask(__name__)
 
